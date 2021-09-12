@@ -1,0 +1,53 @@
+.header {
+  width: 100vw;
+  background-color: gray;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-search {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 25px;
+  font-size: 14px;
+  padding: 3px;
+  padding-left: 10px;
+  width: 60vw;
+  border: none;
+}
+
+.input-search:focus {
+  outline: none;
+}
+
+.find-button {
+  height: 31px;
+  padding: 3px;
+  width: 60px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border: none;
+}
+
+.render-data {
+  padding: 20px;
+}
+
+.result-total {
+  margin-bottom: 25px;
+}
+
+.data-item {
+  margin-bottom: 5px;
+}
+
+.data-item:nth-child(even) {
+  color: gray;
+}
+
+.info {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
